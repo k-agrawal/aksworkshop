@@ -24,27 +24,27 @@ In this module, you will:
 
 
 
-Create an Azure Kubernetes Service cluster
+1. Create an Azure Kubernetes Service cluster
 
-Choose the best deployment options for you Pods
+2. Choose the best deployment options for you Pods
 
-Expose Pods to internal and external network users
+3. Expose Pods to internal and external network users
 
-Configure SSL/TLS for Azure Kubernetes Service ingress
+4. Configure SSL/TLS for Azure Kubernetes Service ingress
 
-Monitor the health of an Azure Kubernetes Service cluster
+5. Monitor the health of an Azure Kubernetes Service cluster
 
-Scale your application in an Azure Kubernetes Service cluster
+6. Scale your application in an Azure Kubernetes Service cluster
 
 Prerequisites
 
-Familiarity with Kubernetes and its concepts. If you're new to Kubernetes, start with the basics of Kubernetes .
+1. Familiarity with Kubernetes and its concepts. If you're new to Kubernetes, start with the basics of Kubernetes .
 
-An Azure subscription  to deploy resources in.
+2. An Azure subscription  to deploy resources in.
 
-Familiarity with Azure Cloud Shell .
+3. Familiarity with Azure Cloud Shell .
 
-A GitHub  account.
+4. A GitHub  account.
 
 Application architecture
 
@@ -58,58 +58,22 @@ There are several tasks that you'll complete to show how Kubernetes abstracts aw
 
 
 
-Use AKS to deploy a Kubernetes cluster.
+1. Use AKS to deploy a Kubernetes cluster.
 
+2. Configure an Azure Container Registry to store application container images.
 
+3. Deploy the three ratings application components.
 
-Configure an Azure Container Registry to store application container images.
+4. Deploy the Fruit Smoothies website document database using Helm 3.
 
+5. Deploy the Fruit smoothies RESTFul API using deployment manifests.
 
+6. Deploy the Fruit smoothies website frontend using deployment manifests.
 
-Deploy the three ratings application components.
+7. Deploy Azure Kubernetes ingress using Helm 3.
 
+8. Configure SSL/TLS on the controller using cert-manager.
 
+9. Configure Azure Monitor for containers to monitor the Fruit Smoothies website deployment.
 
-Deploy the Fruit Smoothies website document database using Helm 3.
-
-
-
-Deploy the Fruit smoothies RESTFul API using deployment manifests.
-
-
-
-Deploy the Fruit smoothies website frontend using deployment manifests.
-
-
-
-Deploy Azure Kubernetes ingress using Helm 3.
-
-
-
-Configure SSL/TLS on the controller using cert-manager.
-
-
-
-Configure Azure Monitor for containers to monitor the Fruit Smoothies website deployment.
-
-
-
-Configure cluster autoscaler and horizontal pod autoscaler for the Fruit Smoothies cluster.
-
-
-
-Source code
-
-The application consists of two components: the API and the front end. Both components are written in Node.js. The API stores data in a MongoDB database.
-
-
-
-TABLE 1
-
-Component	Link
-
-An API ratings-api	GitHub repo 
-
-A front end ratings-web	GitHub repo 
-
-Application diagram
+10. Configure cluster autoscaler and horizontal pod autoscaler for the Fruit Smoothies cluster.
