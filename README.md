@@ -77,3 +77,10 @@ There are several tasks that you'll complete to show how Kubernetes abstracts aw
 9. Configure Azure Monitor for containers to monitor the Fruit Smoothies website deployment.
 
 10. Configure cluster autoscaler and horizontal pod autoscaler for the Fruit Smoothies cluster.
+
+Source code
+The application consists of two components: the API and the front end. Both components are written in Node.js. The API stores data in a MongoDB database.
+
+Component	Link
+An API ratings-api	 https://github.com/MicrosoftDocs/mslearn-aks-workshop-ratings-api
+A front end ratings-web	 https://github.com/MicrosoftDocs/mslearn-aks-workshop-ratings-web
