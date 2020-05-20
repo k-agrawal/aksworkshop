@@ -82,5 +82,7 @@ Source code
 The application consists of two components: the API and the front end. Both components are written in Node.js. The API stores data in a MongoDB database.
 
 Component	Link
+
 An API ratings-api	 https://github.com/MicrosoftDocs/mslearn-aks-workshop-ratings-api
+
 A front end ratings-web	 https://github.com/MicrosoftDocs/mslearn-aks-workshop-ratings-web
