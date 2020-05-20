@@ -79,6 +79,7 @@ There are several tasks that you'll complete to show how Kubernetes abstracts aw
 10. Configure cluster autoscaler and horizontal pod autoscaler for the Fruit Smoothies cluster.
 
 Source code
+
 The application consists of two components: the API and the front end. Both components are written in Node.js. The API stores data in a MongoDB database.
 
 Component	Link
