@@ -10,17 +10,17 @@ Fruit Smoothies wants to use Kubernetes as their compute platform. The developme
 
 
 
-In this module, you'll go through tasks to deploy a multicontainer application to Kubernetes on Azure Kubernetes Service (AKS).
+In this project, you'll go through tasks to deploy a multicontainer application to Kubernetes on Azure Kubernetes Service (AKS).
 
 
 
-You'll use your Azure subscription to deploy the resources in this workshop. To estimate the expected costs for these resources, see the preconfigured Azure Calculator estimate  of the resources that you'll deploy.
+You'll use Azure to deploy the resources in this workshop. To estimate the expected costs for these resources, see the preconfigured Azure Calculator estimate  of the resources that you'll deploy.
 
 
 
 Learning objectives
 
-In this module, you will:
+In this project, you will:
 
 
 
@@ -51,8 +51,6 @@ Application architecture
 Our goal is to deploy an Azure managed Kubernetes service, Azure Kubernetes Service (AKS), that runs the Fruit Smoothies ratings website in the following series of exercises.
 
 
-
-Diagram that shows the deployed resources on the Azure Kubernetes Service cluster.
 
 There are several tasks that you'll complete to show how Kubernetes abstracts away complex container management and provides you with declarative configuration to orchestrate containers.
 
